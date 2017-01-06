@@ -15,6 +15,7 @@
 		048A3A221E1F352400265C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048A3A201E1F352400265C1F /* LaunchScreen.storyboard */; };
 		048A3A2D1E1F352400265C1F /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A3A2C1E1F352400265C1F /* testTests.m */; };
 		048A3A381E1F352400265C1F /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A3A371E1F352400265C1F /* testUITests.m */; };
+		048A3A491E1F36CE00265C1F /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A3A481E1F36CE00265C1F /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		048A3A331E1F352400265C1F /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		048A3A371E1F352400265C1F /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		048A3A391E1F352400265C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048A3A471E1F36CE00265C1F /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		048A3A481E1F36CE00265C1F /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				048A3A201E1F352400265C1F /* LaunchScreen.storyboard */,
 				048A3A231E1F352400265C1F /* Info.plist */,
 				048A3A121E1F352400265C1F /* Supporting Files */,
+				048A3A471E1F36CE00265C1F /* Test.h */,
+				048A3A481E1F36CE00265C1F /* Test.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				048A3A1A1E1F352400265C1F /* ViewController.m in Sources */,
+				048A3A491E1F36CE00265C1F /* Test.m in Sources */,
 				048A3A171E1F352400265C1F /* AppDelegate.m in Sources */,
 				048A3A141E1F352400265C1F /* main.m in Sources */,
 			);
